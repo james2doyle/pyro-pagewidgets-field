@@ -1,0 +1,48 @@
+#widget_page {
+  overflow: auto;
+  -ms-overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+#widget_sorting {
+  margin: 0;
+  list-style: none;
+}
+
+#widget_sorting li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 10px;
+  margin: 0;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  text-shadow: 0 1px 0 white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  -webkit-transition: box-shadow 0.4s ease;
+  -moz-transition: box-shadow 0.4s ease;
+  -o-transition: box-shadow 0.4s ease;
+  -ms-transition: box-shadow 0.4s ease;
+  transition: box-shadow 0.4s ease;
+}
+
+#widget_sorting li:hover {
+  cursor: move;
+}
+
+#widget_sorting li.ui-sortable-placeholder {
+  border: 3px dashed #e0e0e0;
+  height: 14px;
+  visibility: visible !important;
+}
+
+#widget_sorting li.ui-sortable-helper {
+  top: 0;
+  position: absolute;
+  -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+}
