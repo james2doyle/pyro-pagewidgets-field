@@ -12,7 +12,11 @@ Steps
 * Go to a page with that type and choose widgets from the multiselect
 * Order them with the sortable list
 
+### Field Creation
+
 ![Field Creation](http://files.getcloudapp.com/items/3G3j1H3B01432d2s2z31/Screen%20Shot%202013-03-05%20at%2012.08.12%20PM.png)
+
+### Field during page edit
 
 ![Order Items](http://files.getcloudapp.com/items/0G0v263e2L120A2r433Q/Screen%20Shot%202013-03-05%20at%2012.10.14%20PM.png)
 
