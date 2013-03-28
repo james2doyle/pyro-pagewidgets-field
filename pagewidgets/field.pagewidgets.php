@@ -12,7 +12,7 @@ class Field_pagewidgets
 {
 	public $field_type_slug    = 'pagewidgets';
 	public $db_col_type        = 'text';
-	public $version            = '1.0.0';
+	public $version            = '1.0.1';
 	public $custom_parameters  = array('widget_area');
 	public $author             = array('name'=>'James Doyle', 'url'=>'http://github.com/james2doyle/pyro-pagewidgets-field');
 
